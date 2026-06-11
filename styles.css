@@ -52,7 +52,7 @@ a:hover { color: var(--resin-deep); }
   letter-spacing: 0.02em;
   padding: 8px 0;
 }
-.nap-strip .wrap { display: flex; gap: 24px; flex-wrap: wrap; justify-content: space-between; max-width: 1760px; padding: 0 48px; }
+.nap-strip .wrap { display: flex; gap: 24px; flex-wrap: wrap; justify-content: space-between; }
 .nap-strip a { color: var(--wax); text-decoration: none; }
 .nap-strip a:hover { text-decoration: underline; }
 
@@ -266,7 +266,7 @@ footer.site ul { list-style: none; display: grid; gap: 8px; font-size: 0.95rem; 
 
 /* ---------- Responsive ---------- */
 @media (max-width: 1100px) {
-  .nav, .nap-strip .wrap, footer.site .wrap { padding-left: 24px; padding-right: 24px; }
+  .nav, footer.site .wrap { padding-left: 24px; padding-right: 24px; }
 }
 @media (max-width: 900px) {
   .hero-grid, .grid-3, .grid-4, .steps { grid-template-columns: 1fr 1fr; }
